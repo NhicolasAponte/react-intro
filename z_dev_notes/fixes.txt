@@ -1,0 +1,5 @@
+i swapped credentials on vscode and github desktop. I set git config --global user.name and user.email to 
+correct git account, but on push from vscode and git bash, I was getting the 'push to 'some url or branch name' denied to NhicFlores 
+which was the wrong git account. Windows has a  credentials manager and it was grabbing the old token from that 
+which belonged to the old git hub account. I just deleted them, and it asked me to sign in again and 
+i was able to select the correct account 
