@@ -27,6 +27,7 @@ const [isAlertVisible, setIsAlertVisible] = useState(false);
   }
 
   function handleClick() {
+    console.log("handleClick in App Component");
     setIsAlertVisible(!isAlertVisible);
   }
 
